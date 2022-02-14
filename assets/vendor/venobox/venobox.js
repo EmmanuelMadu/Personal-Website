@@ -802,7 +802,7 @@
 
                 $(window).resize(function(){
                     if($('.vbox-content').length){
-                        setTimeout(updateOL(), 800);
+                        setTimeout(updateOL(), 0);
                     }
                 });
             }); // each
